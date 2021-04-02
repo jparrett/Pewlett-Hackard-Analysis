@@ -20,9 +20,18 @@ The next step was to prepare to fill all those positions through a mentorship pr
 - The report identified that of those employees, 1,098 (70.1%) of employees were already a a senior engineer or senior staff.
 
 
-
 # Summary: 
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight.
+Within the queries, the following was established:
 
--determine the number of retiring employees per title
--identify employees who are eligible to participate in a mentorship program
+- 90,398 employees will be eligible for retirement.
+- 1,549 employees will be eligible for the mentorship program.
+
+The information has given us insight into the future of the company.   Continuing on with these queries can help to develop more understanding about how to build a sustanable company in the future without these large "tsunamis" of retirement.  
+
+- The mentorship program is a wonderful idea, but is currently locked into staff that were born in 1965.    Using a tiered program, start the mentorship program through all employees careers so that employees are constantly receiving mentorship.   More information would be needed from HR to be able to perform this analysis.
+
+- When running the queries, it is known that a large number of the retiring employees are coming from the Production and Development departments.   These departments should be on the top of the list for the estabiling new hiring and mentorship opportunities.
+
+Overall, there are a large number of employees that will be retiring.   Pewlett-Hackard is being proactive by using these queiries to better understand the upcoming years and ensure their company is prepared.    Continuation of this data analysis is recommended so that the company can continuously be aware of their staffing levels and mentorship opportunities.
+
+
