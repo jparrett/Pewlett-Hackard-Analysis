@@ -218,3 +218,46 @@ INNER JOIN dept_emp AS de
 ON (ce.emp_no = de.emp_no)
 INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no);
+
+WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+
+
+SELECT ce.emp_no,
+ce.first_name,
+ce.last_name,
+d.dept_name
+INTO sales_combined_dept_info
+FROM current_emp as ce
+INNER JOIN dept_emp AS de
+ON (ce.emp_no = de.emp_no)
+INNER JOIN departments AS d
+ON (de.dept_no = d.dept_no)
+WHERE (de.dept_no = 'd007' OR de.dept_no = 'd005');
+
+
+-- Query 1
+-- to find the latest rental by customer.
+SELECT DISTINCT ON (r.customer_id) c.first_name, c.last_name, c.email, r.rental_date 
+FROM rental AS r
+JOIN customer AS c 
+ON (r.customer_id=c.customer_id)
+ORDER BY r.customer_id, r.rental_date DESC;
+
+
+-- Query 2
+-- to find the latest rental date
+SELECT DISTINCT ON (f.title ) f.title, r.rental_date
+FROM rental AS r
+JOIN inventory as i
+ON (i.inventory_id = r.inventory_id)
+JOIN film as f
+ON (f.film_id = i.film_id)
+ORDER BY f.title, r.rental_date DESC;
+
+-- Bonus
+-- to find if a value is in one but not the other
+SELECT film_id, title
+FROM film 
+WHERE film_id NOT IN
+  (SELECT film_id 
+   FROM inventory);
