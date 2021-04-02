@@ -1,14 +1,16 @@
 # Pewlett-Hackard-Analysis
-Module 7
+Module 7 - Employee Database with SQL
 
 
-# Overview of the analysis: Explain the purpose of the new analysis.
-This analysis will look at two reports.    First, determine the number of retiring employees per title.    Then, identify employees who are eligible to participate in a mentorship program.    These analysis will help Pewlett-Hackard prepare for the "silver tsunami" that is expected as a large number of employees are reaching retirment age.
+# Overview
+This analysis will look at two reports.    First, determine the number of retiring employees per title.    Then, identify employees who are eligible to participate in a mentorship program.    These analysis reports will help Pewlett-Hackard prepare for the "silver tsunami" that is expected as a large number of employees are reaching retirment age by anticipating retirement by title then by creating a mentorship program for the company.
 
 # Results: 
 There is a bulleted list with four major points from the two analysis deliverables.
 
-The first query returned a list with the number of retiring employees per title.    
+The first step in preperation is to determine the number of employees by title that will be retiring.    Employee information was filtered to include only employees with birthdates between January 1, 1952 and December 31, 1955.  Using the fuction, distinct on this information was updated to include the current title of those employees.   
+
+
 
 From Of the 300,024 employees within the company, 90,398 (30.13%) are eligible for retirement.
 Senior Engineer, Senior Staff and Engineer's hold the largest share (23.9%) of employees likely preparing for retirement.
