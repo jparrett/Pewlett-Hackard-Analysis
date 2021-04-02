@@ -19,7 +19,7 @@ THE departments with the highest number of potential retirees are Development(25
 Only 1549 total employees qualify for mentorship/training for an internal promotion.
 
 To continue the analysis, the data was broken down into percentage of rides.  The Urban city type represents the majority of the rides at 68.4%.  
-<img src="/Analysis/Fig6.png" width="600"> [Fig6.png](/Analysis/Fig6.png)
+<img src="/Data/retiring_titles.pdf" width="600"> [retiring_titles.pdf](/Data/retiring_titles.pdf)
 
 
 
