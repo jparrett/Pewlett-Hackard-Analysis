@@ -12,7 +12,7 @@ The first step in preperation is to determine the number of employees by title t
 - Of those employees, 62,170 (68.7%) are employees that hold positions as a leader or senior employee.  
 - Senior Engineers hold the highest percentage of retiring employees with 32.5%
 
-<img src="/.../Data/retiring_titles.pdf" width="600"> [retiring_titles.pdf](/.../Data/retiring_titles.pdf)
+<img src="/Data/retiring_titles.png" width="600"> [retiring_titles.png](/Data/retiring_titles.png)
 
 The next step was to prepare to fill all those positions through a mentorship program.   To obtain this data, the tables were filtered to a list that contained current employees who were born between January 1, 1965 and December 31, 1965.
 
