@@ -12,7 +12,7 @@ The first step in preperation is to determine the number of employees by title t
 - Of those employees, 62,170 (68.7%) are employees that hold positions as a leader or senior employee.  
 - Senior Engineers hold the highest percentage of retiring employees with 32.5%
 
-<img src="../Data/retiring_titles.pdf" width="600"> [retiring_titles.pdf](../Data/retiring_titles.pdf)
+<img src="/../Data/retiring_titles.pdf" width="600"> [retiring_titles.pdf](/../Data/retiring_titles.pdf)
 
 The next step was to prepare to fill all those positions through a mentorship program.   To obtain this data, the tables were filtered to a list that contained current employees who were born between January 1, 1965 and December 31, 1965.
 
@@ -32,6 +32,6 @@ The information has given us insight into the future of the company.   Continuin
 
 - When running the queries, it is known that a large number of the retiring employees are coming from the Production and Development departments.   These departments should be on the top of the list for the estabiling new hiring and mentorship opportunities.
 
-Overall, there are a large number of employees that will be retiring.   Pewlett-Hackard is being proactive by using these queiries to better understand the upcoming years and ensure their company is prepared.    Continuation of this data analysis is recommended so that the company can continuously be aware of their staffing levels and mentorship opportunities.
+Overall, there are a large number of employees that will be retiring.   Pewlett-Hackard is being proactive by using these queries to better understand the upcoming years and ensure their company is prepared.    Continuation of this data analysis is recommended so that the company can continuously be aware of their staffing levels and mentorship opportunities.
 
 
